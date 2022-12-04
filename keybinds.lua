@@ -102,6 +102,16 @@ local keys = {
     mods = "CTRL",
     action = action{ActivateTab = 9},
   },
+  {
+    key = "Enter",
+    mods = "CTRL",
+    action = action{SplitHorizontal = {domain="CurrentPaneDomain"}},
+  },
+  {
+    key = "Enter",
+    mods = "CTRL|SHIFT",
+    action = action{SplitVertical = {domain="CurrentPaneDomain"}},
+  }
 }
 
 return {keys = keys}
