@@ -35,7 +35,7 @@ local keys = {
   {
     key = "w",
     mods = "CTRL|SHIFT",
-    action = action{CloseCurrentTab = {confirm=true}},
+    action = action.QuitApplication,
   },
   {
     key = "t",
@@ -50,7 +50,7 @@ local keys = {
   {
     key = "q",
     mods = "CTRL|SHIFT",
-    action = action.QuitApplication,
+    action = action{CloseCurrentTab = {confirm=true}},
   },
   {
     key = "1",
