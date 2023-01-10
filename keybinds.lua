@@ -42,6 +42,11 @@ local keys = {
     mods = "CTRL|SHIFT",
     action = action{SpawnTab = "CurrentPaneDomain"},
   },
+  -- {
+  --   key = "n",
+  --   mods = "CTRL",
+  --   action = action(SpawnCommand = "navi"),
+  -- },
   {
     key = "n",
     mods = "CTRL|SHIFT",
